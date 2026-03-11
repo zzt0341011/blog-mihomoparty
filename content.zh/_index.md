@@ -1,110 +1,91 @@
 ---
-title: sing-box gui客户端教程
+title: clash party下载和安装
 type: docs
 ---
 
-## sing-box介绍
+Clash Party 是一款2026年备受推崇的跨平台科学上网客户端，基于最新Mihomo（原Clash Meta）内核打造而成。它以极简美观的界面、开箱即用的体验和强大的功能著称，成为许多用户从Clash for Windows、Clash Verge等旧客户端转向的新首选。Clash Party完美支持Shadowsocks、Trojan、V2Ray、Hysteria等多种主流翻墙协议，帮助用户轻松绕过网络限制，稳定访问Google、YouTube、Netflix、ChatGPT、Twitter等海外网站和服务，实现真正的高速、可靠科学上网。
 
-[sing-box](https://github.com/SagerNet/sing-box)是一款开源代理软件，它可以借助于服务器改变你访问互联网的ip地址，比如，你的所在的国家不支持[chatgpt](https://chatgpt.com/)，你就可以借助这款软件，sing-box软件类似于v2rayN、clash for window、clash.meta、[hiddify](https://hiddify.me/zh)、[v2box](https://v2box.pro/zh)、[shadorocket](https://shadowrocket.ink/zh)、[Karing](https://karing.biz/zh), [flclash](https://flclash.xyz/zh),[mahsang](https://mahsang.pro/zh)、surge、[stash](https://apps.apple.com/us/app/stash-rule-based-proxy/id1596063349)、[streisand](https://streisand.onl/zh)等，但是它有很多新的特性。比如它在苹果软件商店是免费下载的，不需要付费下载，**sing-box**支持的协议有很多，比如shadowsocks、vmess、[vless](https://vless.app/zh)、reality、Trojan、hysteria2等协议。
+![clash-party001.png](https://mihomoparty.pro/img/clash-party001.png)
 
-![sing-box介绍](https://sing-box.info/img/sing-box介绍.jpg)
+### 为什么选择Clash Party？2026年最值得入手的科学上网客户端
 
-## sing-box支持哪些平台？
+相比传统Clash客户端，Clash Party在2026年脱颖而出，主要优势包括：
 
-[sing-box](https://sing-box.info/zh) 是免费跨平台代理软件（The universal proxy platform），客户端支持 Windows、Mac、Android、iOS 、linux、 Apple TV 等平台上使用。
+- **开箱即用TUN模式**：无需繁琐配置，一键启用虚拟网卡全局代理，Windows、macOS、Linux全平台支持，真正做到“傻瓜式”科学上网。
+- **内置Sub-Store订阅管理**：深度集成订阅转换工具，支持一键导入机场Clash订阅链接，自动更新节点，管理多个机场订阅毫不费力。
+- **多主题高颜值界面**：提供多种清新主题选择，操作流畅、启动迅速、资源占用极低，远超老版Clash for Windows的体验。
+- **强大覆写与备份功能**：允许自定义配置文件，支持WebDAV一键云备份/恢复配置，避免配置丢失。
+- **内核稳定更新**：采用最新Mihomo内核，支持更多新协议和优化，延迟低、掉线少，适合追剧、游戏、外贸办公等多种高需求场景。
+- **跨平台兼容**：Windows、macOS、Linux桌面端统一体验，订阅链接通用，方便多设备切换。
 
+无论你是科学上网新手还是老鸟，Clash Party都能让你快速上手，享受稳定高速的海外网络。
 
-## sing-box下载地址
+### 第一步：安全下载并安装最新版Clash Party（2026年3月最新）
 
+**官方下载地址**（强烈推荐从GitHub Releases获取，确保纯净无毒）：https://github.com/mihomo-party-org/clash-party/releases  
+选择标有“Latest”的最新稳定版（当前主流版本如v1.9.x系列）。
 
-| 序  号 | 平  台 | 软件名称 | 下载地址 | 软件内核 |
-|---|---|---|---|---|
-| 1 | 安 卓 | [nekobox](https://sing-box.info/zh/docs/%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/sing-box%E5%AE%89%E5%8D%93%E7%89%88%E5%AE%A2%E6%88%B7%E7%AB%AFnekobox%E4%BD%BF%E7%94%A8/) | [点击下载](https://pan1.mene.lol/s/5Xvia) | sing-box |
-| 2 | windows | [nekoray-3.26](https://sing-box.info/zh/docs/%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/windows%E7%89%88sing-box%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95--nekoray/) | [点击下载](https://pan1.mene.lol/s/8kETK) | sing-box |
-| 3 | ios | [sing-box VT](https://sing-box.info/zh/docs/%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/%E5%A6%82%E4%BD%95%E5%9C%A8iphone%E4%B8%8A%E4%BD%BF%E7%94%A8sing-box/) | [点击下载](https://apps.apple.com/us/app/sing-box-vt/id6673731168)  | sing-box |
-| 4 | windows | [GUI.for.SingBox](https://sing-box.info/zh/docs/%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/GUI.for.SingBox%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/) | [点击下载](https://sing-box.info/soft/GUI.for.SingBox-windows-amd64.zip) | sing-box |
+- **Windows用户**：优先下载x64-setup.exe（64位安装版）或x64-portable.7z（便携版），支持Win7/8/10/11及ARM设备。安装后以管理员身份运行以启用TUN模式。
+- 下载地址：https://pan1.mene.lol/s/LJaca
+- **macOS用户**：选择对应.pkg包（Apple Silicon ARM64版或Intel x64版），适用于macOS 10.15+。安装后允许网络扩展权限。
+- 下载地址：https://pan1.mene.lol/s/Rp0fa
+- **Linux用户**：根据发行版下载.deb（Ubuntu/Debian）或.rpm（Fedora等）包，命令行安装即可。桌面环境如GNOME/KDE均兼容。
+- 下载地址：https://pan1.mene.lol/s/JLXC0
+- **Android用户**：根据发行版下载.apk（android）包，命令行安装即可。这是clashmi替代版本。
+- 下载地址：https://pan1.mene.lol/s/rEOFP
 
-## 机场推荐
+安装完成后首次启动，可能需授权管理员权限或防火墙通过。国内用户若GitHub下载慢，可搜索“Clash Party 镜像下载”使用加速服务，但优先官方渠道更安全。
 
-* 以下机场按照流量付费，网站里有软件的使用和安装教程
-* 购买流量以后，不限制时间，流量用完为止
-* 如果网站无法访问，则说明已经被墙，更换其他网站即可
+### 第二步：挑选高性价比机场，获取Clash订阅链接
 
-| 名 称 | 价 格 | 流 量 | 节点数 |
-| :--- | :--- | :--- | :--- |
-| [极速机场](https://jsjc.cfd/#/register?code=w7rsHzIL) | 8元 | 200G | 35个 |
-| [北美机场](https://www.northamericanairport-official-mirror.hair/#/register?code=j2rr2X4T) | 10元 | 1000G | 35个 |
-| [一元中转](https://yyzz.ink/#/register?code=mqini9Q0) | 12元 | 1年 | 40个 |
-| [996云](https://dash.996cloud.top/#/register?code=WO0oVqnE) | 12元 | 1年 | 42个 |
-| [一分](https://xn--4gqx1hgtfdmt.com/#/register?code=Aqr3awfK) | 12元 | 100G | 40个 |
-| [牛逼](https://6666b.idsduf.com/#/login?code=sT9kLfc6) | 13元 | 200G | 41个 |
-| [魔戒](https://mojie.xn--yrs494l.com/register?aff=BpCuERz0) | 15元 | 130G | 48个 |
-| [speedy](https://cloud.speedypro.xyz/#/register?code=RTSPWuvE) | 15元 | 100G | 42个 |
-| [农夫山泉](https://www.nfsq.us/#/register?code=i1fXTMYk)    | 15元   | 200G |32个|
-| [网际快车](https://wjkc66.vip?c=REZUOC) | 16元 | 100G | 54个 |
-| [赔钱机场](https://www.xn--mes358aby2apfg.site/register?code=OufF6cCL) | 19元 | 1000G | 37个 |
-| [kitty](https://kitty.su/#/register?code=FodKng1b) | 24元 | 1年 | 42个 |
-| [渔云机场](https://cloudfisher.net/web/#/login?code=NatdlqpR) | 40元 | 300G | 32个 |
-| [ofopp](https://kk.ofopp.net/#/register?code=A2UmuXR8) | 40元 | 100G | 70个 |
-| [超实惠](https://cshjc.shop/register?code=GadIbTHc) | 51元 | 666G | 40个 |
-| [宝贝云](https://web1.bby011.com/#/register?code=8xTTMr2f) | 55元 | 600G | 64个 |
-| [千速猫](https://tmsreta.top/#/register?code=mmgD0jY7) | 68元 | 512G | 46个 |
-| [奈云](https://www.v2ny.me?path=register&code=05XjPGu5) | 98元 | 280G | 140个 |
-| [墨菲云](https://portal.mofeiyun.com/#/register?code=ugmD3VWT) | 0.5元 | 100G | 33个 |
+机场（节点服务商）是科学上网的核心，提供稳定、高速的海外线路。2026年市面优质机场众多，以下精选一批口碑好、价格亲民、节点丰富、支持Clash一键订阅的机场，适合不同预算和需求。流量充足、节点覆盖香港、日本、美国、新加坡、欧洲等多地区，解锁Netflix、Disney+、ChatGPT等无压力。
 
-- leeulen60@gmail.com
-
-
-## 节点购买和使用教程
-
-- 节点是网络上的服务器，软件导入节点以后，手机就可以访问外部网络
-- 以网际快车机场为例，右键点击，[打开网际快车官网](https://wjkc66.vip?c=REZUOC)
-- 输入邮箱和密码，注册账号
-
-![kuaiche001.jpg](https://sing-box.info/img/kuaiche001.jpg)
-
-- 点击商店，购买套餐，这里我们选择16元100G不限时间套餐
-- 之后通过支付宝或者微信进行付款即可
-
-![kuaiche002.jpg](https://sing-box.info/img/kuaiche002.jpg)
-
-- 付款以后，点击使用教程--clash--订阅--复制订阅链接
-
-![kuaiche003.jpg](https://sing-box.info/img/kuaiche003.jpg)
+| 名称       | 价格   | 流量       | 节点数 | 注册/订阅链接（点击直达）                                      | 推荐理由（2026年热门） |
+|------------|--------|------------|--------|------------------------------------------------------------------|--------------------------|
+| 牛逼       | 14元   | 200G/月    | 31个   | [https://1.jnk.ink/LYet7x](https://1.jnk.ink/LYet7x)             | 超低入门价，适合新手试水 |
+| 农夫山泉   | 15元   | 200G/月    | 40个   | [https://1.jnk.ink/i1fXTMYk](https://1.jnk.ink/i1fXTMYk)         | 节点均衡，稳定性高 |
+| 魔戒       | 15元   | 130G/月    | 48个   | [https://1.jnk.ink/L4q20S](https://1.jnk.ink/L4q20S)             | 节点数量多，覆盖广 |
+| speedy     | 15元   | 100G/月    | 42个   | [https://cloud.speedypro.xyz/#/register?code=RTSPWuvE](https://cloud.speedypro.xyz/#/register?code=RTSPWuvE) | 速度快，入门首选 |
+| 网际快车   | 16元   | 100G/月    | 54个   | [https://wjkc66.vip?c=REZUOC](https://wjkc66.vip?c=REZUOC)       | 节点丰富，性价比突出 |
+| 赔钱机场   | 19元   | 1000G/月   | 37个   | [https://www.xn--mes358aby2apfg.site/register?code=OufF6cCL](https://www.xn--mes358aby2apfg.site/register?code=OufF6cCL) | 大流量王者，重度用户必备 |
+| 一分       | 20元   | 1000G/月   | 30个   | [https://xn--4gqx1hgtfdmt.com/#/register?code=Aqr3awfK](https://xn--4gqx1hgtfdmt.com/#/register?code=Aqr3awfK) | 超大流量，长期使用划算 |
+| 飞兔       | 30元   | 100G/月    | 80个   | [https://www.xn--9kq10e0y7h.site/index.html?register=TtwX5VXt](https://www.xn--9kq10e0y7h.site/index.html?register=TtwX5VXt) | 节点最多，覆盖全球 |
+| 宝贝云     | 55元   | 600G/月    | 64个   | [https://1.jnk.ink/xxPwfy](https://1.jnk.ink/xxPwfy)             | 中高端稳定选择 |
+| 千速猫     | 68元   | 512G/月    | 46个   | [https://tmsreta.top/#/register?code=mmgD0jY7](https://tmsreta.top/#/register?code=mmgD0jY7) | 速度优先，高端线路 |
+| 自由猫     | 50元   | 500G/月    | 90个   | [https://us.freecat.cc/register?code=czdF7PXY](https://us.freecat.cc/register?code=czdF7PXY) | 节点超多，解锁能力强 |
 
 
-- 打开nekobox，点击右上角，找到分组设置，添加分组
+![clash-party-101.png](https://mihomoparty.pro/img/clash-party101.png)
 
-![kuaiche004.jpg](https://sing-box.info/img/kuaiche004.jpg)
+**2026年机场选购建议**：
+- 预算有限或新手入门：优先14-20元档（如牛逼、赔钱机场、一分），流量大到用不完。
+- 追求节点数量与全球覆盖：飞兔或自由猫，节点多达80-90个。
+- 重度追剧/下载用户：选赔钱机场或一分，1000G超大流量无压力。
+注册后进入面板，找到“Clash订阅”或“订阅链接”，复制完整URL（通常以.yaml或订阅地址形式）。
 
-- 如图，输入订阅链接，保存
+### 第三步：Clash Party导入机场订阅，一键连接科学上网
 
-![kuaiche005.jpg](https://sing-box.info/img/kuaiche005.jpg)
+1. 打开Clash Party，进入左侧“订阅”或“Configs”菜单。
+![clash-party002.png](https://mihomoparty.pro/img/clash-party002.png)
+3. 点击“导入订阅”或“New Subscription”。
+![clash-party003.png](https://mihomoparty.pro/img/clash-party003.png)
+5. 粘贴机场提供的Clash订阅链接，点击确认/更新。
+![clash-party004.png](https://mihomoparty.pro/img/clash-party004.png)
+7. 等待自动拉取节点列表（几秒到几十秒）。
+![clash-party005.png](https://mihomoparty.pro/img/clash-party005.png)
+9. 切换到“代理”或“Proxies”页面，选择节点组（如“自动选择”“香港”“日本”“美国”等）。
 
-- 测试链接，返回首页，点击中间小火箭，即可链接，
-- 也可以手动选择地区，
-- 可以看到这个[网际快车](https://快车.com?c=REZUOC)机场，有39个节点，已经运行了很多年，非常稳定
+![clash-party006.png](https://mihomoparty.pro/img/clash-party006.png)
+11. 顶部开启“系统代理”或“TUN模式”（推荐TUN，全局代理更彻底，无需浏览器插件）。
+![clash-party007.png](https://mihomoparty.pro/img/clash-party007.png)
+12. 右下角显示连接成功，节点延迟实时可见。
+![clash-party008.png](https://mihomoparty.pro/img/clash-party008.png)
+测试：打开浏览器访问google.com、youtube.com或chat.openai.com。若页面正常加载，即成功科学上网！
 
-![kuaiche006.jpg](https://sing-box.info/img/kuaiche006.jpg)
+**实用小技巧提升体验**：
+- 节点测速：点击延迟测试按钮，自动筛选最低延迟节点。
+- 代理模式：规则模式（智能分流，推荐）；全局模式（全部走代理）；直连模式（关闭代理）。
+- 安卓手机补充：同一机场订阅链接可导入Clash Mi，实现手机电脑同步科学上网。
+- 定期更新订阅：设置自动更新，避免节点失效。
 
-- [免费sing-box节点分享、长期更新](https://sing-box.info/zh/docs/%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/%E5%85%8D%E8%B4%B9sing-box%E8%8A%82%E7%82%B9%E9%95%BF%E6%9C%9F%E6%9B%B4%E6%96%B0/)
-
-- [安卓版sing-box使用方法](https://sing-box.info/zh/docs/%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/sing-box%E5%AE%89%E5%8D%93%E7%89%88%E5%AE%A2%E6%88%B7%E7%AB%AFnekobox%E4%BD%BF%E7%94%A8/)
-
-- [windows版sing-box使用方法--gui.for.singbox](https://sing-box.info/zh/docs/%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/GUI.for.SingBox%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/)
-
-- [windows版sing-box使用方法--nekoray](https://sing-box.info/zh/docs/%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/windows%E7%89%88sing-box%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95--nekoray/)
-
-- [苹果电脑sing-box使用方法](https://sing-box.info/zh/docs/%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/%E5%A6%82%E4%BD%95%E5%9C%A8iphone%E4%B8%8A%E4%BD%BF%E7%94%A8sing-box/)
-
-
-
-
-
-
-
-
-
-
-
-
+Clash Party结合以上高性价比机场，已成为2026年最受欢迎的科学上网组合方案。只需每月十几到几十元，就能拥有几十上百个优质节点，流量充裕、速度飞起、稳定不掉线。无论你是学生、上班族还是外贸从业者，都能轻松访问全球互联网。立即挑选一个机场注册，下载Clash Party开始你的自由之旅吧！科学上网，从Clash Party起步，畅享无界网络！

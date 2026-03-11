@@ -1,80 +1,97 @@
 ---
-title: Руководство по клиенту Sing-box GUI
+title: Clash Party скачать и установка
 type: docs
 ---
 
-## Introduction to Sing-box
+Clash Party — это высоко оценённый кроссплатформенный клиент для прокси в 2026 году, созданный на основе самого современного ядра Mihomo (ранее Clash Meta). Он выделяется минималистичным элегантным интерфейсом, готовностью к использованию из коробки и мощными функциями, став новым фаворитом для многих пользователей, переходящих с устаревших клиентов вроде Clash for Windows или Clash Verge. Clash Party полностью поддерживает популярные протоколы прокси: Shadowsocks, Trojan, V2Ray, Hysteria и другие, позволяя легко обходить сетевые ограничения и стабильно заходить на зарубежные сервисы — Google, YouTube, Netflix, ChatGPT, Twitter (X) и многие другие — с высокой скоростью и надёжностью.
 
-[Sing-box](https://github.com/SagerNet/sing-box) — это программное обеспечение с открытым исходным кодом, которое может изменить ваш интернет IP-адрес, используя сервер. Например, если [ChatGPT](https://chatgpt.com/) не поддерживается в вашей стране, вы можете использовать это программное обеспечение для доступа к нему. Sing-box похож на такие приложения, как v2rayN, Clash for Windows, Clash.Meta, [Hiddify](https://hiddify.me/ru), [v2box](https://v2box.pro/ru), [Shadowrocket](https://shadowrocket.ink/ru), [Karing](https://karing.biz/ru), [flclash](https://flclash.xyz),[mahsang](https://mahsang.pro),Surge и Stash, но предлагает несколько уникальных функций. Например, он доступен для бесплатной загрузки в Apple App Store, без необходимости оплачивать загрузку. Sing-box поддерживает различные протоколы, включая Shadowrockets, Vmess, [Vless](https://vless.app/ru), Reality, Trojan и Hysteria2.
+![clash-party001.png](https://mihomoparty.pro/img/clash-party001.png)
 
-![sing-box介绍](https://sing-box.info/img/sing-box介绍.jpg)
+### Почему стоит выбрать Clash Party? Лучший клиент для прокси в 2026 году
 
-## На каких платформах поддерживается Sing-box?
+По сравнению с классическими клиентами Clash, Clash Party в 2026 году лидирует благодаря ключевым преимуществам:
 
-Sing-box поддерживает несколько платформ, включая:
+- **TUN-режим из коробки** — без сложной настройки одним кликом включается виртуальная сетевая карта для глобального прокси, полная поддержка Windows, macOS и Linux — настоящий «для чайников» подход к прокси.
+- **Встроенный Sub-Store для управления подписками** — глубокая интеграция инструмента конвертации подписок, импорт ссылок аэропортов Clash в один клик, автоматическое обновление нод, удобное управление несколькими подписками.
+- **Много тем и красивый интерфейс** — множество свежих тем на выбор, плавная работа, быстрый запуск, минимальная нагрузка на систему — значительно лучше старых версий Clash for Windows.
+- **Мощные функции перезаписи и резервного копирования** — произвольная правка конфигов, поддержка облачного бэкапа/восстановления через WebDAV — конфиг не потеряется.
+- **Стабильные обновления ядра** — используется новейшее ядро Mihomo с поддержкой свежих протоколов и оптимизаций, низкий пинг, минимум обрывов — идеально для стриминга 4K, игр, работы с зарубежными сервисами, фриланса.
+- **Кроссплатформенность** — единый опыт на Windows, macOS и Linux, подписки общие для всех устройств — легко переключаться между ПК, ноутбуком и сервером.
 
-1. **Windows**
-2. **macOS**
-3. **Linux**
-4. **iOS** (через поддерживаемые клиенты, такие как Shadowrocket, Surge и другие)
-5. **Android** (через поддерживаемые клиенты, такие как Clash for Android и другие)
+Новичок вы в прокси или опытный пользователь — Clash Party позволит быстро настроиться и наслаждаться стабильным быстрым доступом к глобальному интернету.
 
-Эти платформы могут использовать Sing-box для выполнения функций прокси, хотя поддерживаемые клиенты могут различаться в зависимости от системы, но основные функции доступны на всех этих операционных системах.
+### Шаг 1: Безопасно скачать и установить последнюю версию Clash Party (март 2026 — актуальная)
 
+**Официальный источник загрузки** (настоятельно рекомендуем GitHub Releases — чисто и безопасно): https://github.com/mihomo-party-org/clash-party/releases  
+Выберите релиз с меткой «Latest» (стабильная версия, например v1.9.2 на март 2026).
 
-## Ссылка для загрузки Sing-box
+- **Пользователи Windows** — скачайте x64-setup.exe (64-бит установщик) или x64-portable.7z (портативная версия), поддержка Windows 7/8/10/11 и ARM. После установки запустите от имени администратора для TUN-режима.
+  - Ссылка на скачивание: https://pan1.mene.lol/s/LJaca
+- **Пользователи macOS** — выберите соответствующий .pkg (ARM64 для Apple Silicon или x64 для Intel), совместимо с macOS 10.15+. После установки разрешите сетевые расширения.
+  - Ссылка на скачивание: https://pan1.mene.lol/s/Rp0fa
+- **Пользователи Linux** — скачайте .deb (Ubuntu/Debian) или .rpm (Fedora и др.) в зависимости от дистрибутива, установка через терминал. Работает с GNOME, KDE и другими окружениями.
+  - Ссылка на скачивание: https://pan1.mene.lol/s/JLXC0
+- **Пользователи Android** — скачайте .apk (это альтернатива на базе Clash Meta). Подписки от аэропортов совместимы.
+  - Ссылка на скачивание: https://pan1.mene.lol/s/rEOFP
 
-| Номер | Платформа | Название
- | Скачать | Ядро |
-|---|---|---|---|---|
-| 1 | Android | [nekobox](https://sing-box.info/ru/docs/%D0%A3%D1%87%D0%B5%D0%B1%D0%BD%D0%BE%D0%B5-%D0%BF%D0%BE%D1%81%D0%BE%D0%B1%D0%B8%D0%B5-%D0%BF%D0%BE-%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8E/%D0%98%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D1%83%D0%B9%D1%82%D0%B5-Android-%D0%BA%D0%BB%D0%B8%D0%B5%D0%BD%D1%82-Sing-Box-Nekobox/) | [Нажмите для загрузки](https://sing-box.info/soft/NB4A-1.3.1-armeabi-v7a.apk) | sing-box |
-| 2 | windows | [nekoray-3.26](https://sing-box.info/ru/docs/%D0%A3%D1%87%D0%B5%D0%B1%D0%BD%D0%BE%D0%B5-%D0%BF%D0%BE%D1%81%D0%BE%D0%B1%D0%B8%D0%B5-%D0%BF%D0%BE-%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8E/%D0%9A%D0%B0%D0%BA-%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D1%8C-Sing-Box-%D0%B2-%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D0%B8-%D0%B4%D0%BB%D1%8F-Windows--n/) | [Нажмите для загрузки](https://pan1.mene.lol/s/8kETK) | sing-box |
-| 3 | ios | [sing-box VT](https://sing-box.info/ru/docs/%D0%A3%D1%87%D0%B5%D0%B1%D0%BD%D0%BE%D0%B5-%D0%BF%D0%BE%D1%81%D0%BE%D0%B1%D0%B8%D0%B5-%D0%BF%D0%BE-%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8E/%D0%BA%D0%B0%D0%BA-%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D1%8C-Sing-Box-VT-%D0%BD%D0%B0-iPhone/) | [Нажмите для загрузки](https://apps.apple.com/us/app/sing-box-vt/id6673731168)  | sing-box |
-| 4 | windows | [GUI.for.SingBox](https://sing-box.info/ru/docs/%D0%A3%D1%87%D0%B5%D0%B1%D0%BD%D0%BE%D0%B5-%D0%BF%D0%BE%D1%81%D0%BE%D0%B1%D0%B8%D0%B5-%D0%BF%D0%BE-%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8E/%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D1%81%D1%82%D0%B2%D0%BE-%D0%BF%D0%BE-%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8E-GUI.for.SingBox/) | [Нажмите для загрузки](https://sing-box.info/soft/GUI.for.SingBox-windows-amd64.zip) | sing-box |
-[](https://sing-box.info/zh/docs/%E4%BD%BF%E7%94%A8%E6%95%99%E7%A8%8B/%E5%A6%82%E4%BD%95%E5%9C%A8iphone%E4%B8%8A%E4%BD%BF%E7%94%A8sing-box/)
+После установки первый запуск может потребовать прав администратора или разрешения в файрволе. Если GitHub грузится медленно — ищите «Clash Party зеркало скачать» для ускорения, но отдавайте предпочтение официальным каналам ради безопасности.
 
-## Рекомендованные VPN-провайдеры
+### Шаг 2: Выберите выгодный аэропорт, получите ссылку подписки Clash
 
-* Следующие провайдеры взимают оплату в зависимости от объёма трафика, на их сайтах есть инструкции по установке и использованию программного обеспечения.
-* После покупки трафика **нет ограничения по времени** — использование продолжается, пока не израсходуется весь объём данных.
+Аэропорты (провайдеры нод) — основа стабильного прокси, дают быстрые зарубежные линии. В 2026 году много качественных вариантов. Ниже — отобранные надёжные, недорогие, с большим количеством нод и поддержкой одной кнопки Clash-подписки. Подходят под любой бюджет, большой трафик, покрытие Гонконг, Япония, США, Сингапур, Европа и др., легко открывают Netflix, Disney+, ChatGPT.
 
-| Название                                                               | Цена | Трафик | Количество узлов |
-| :--------------------------------------------------------------------- | :--- | :----- | :--------------- |
-| [Nongfu Spring](https://www.nfsq.us/#/register?code=RaUmorb2)          | ¥15  | 200 ГБ | 30               |
-| [Властелин колец](https://mojie.xn--yrs494l.com/register?aff=BpCuERz0) | ¥15  | 130 ГБ | 48               |
-| [Пикачу](https://pkhub.net/#/register?code=A6O9EIj0)                   | ¥4.5 | 10 ГБ  | 42               |
-| [Интернет-экспресс](https://wjkc66.vip?c=REZUOC)                       | ¥7   | 20 ГБ  | 54               |
-| [Топ VPN](https://xn--mes358a9urctx.com/#/register?code=bnWsDzhG)      | ¥12  | 200 ГБ | 43               |
-| [Летающая птица](https://feiniaoyun.xyz/#/register?code=GpIqYOb5)      | ¥10  | 200 ГБ | 35               |
-| [Один цент](https://xn--4gqx1hgtfdmt.com/#/register?code=Aqr3awfK)     | ¥12  | 100 ГБ | 40               |
-| [AwesomeVPN](https://6666b.idsduf.com/#/login?code=sT9kLfc6)           | ¥13  | 200 ГБ | 41               |
-| [Супервыгодный](https://web1.bby011.com/#/register?code=8xTTMr2f)      | ¥34  | 666 ГБ | 40               |
-| [Baby Cloud](https://web1.bby011.com/#/register?code=8xTTMr2f)         | ¥55  | 600 ГБ | 64               |
-| [FreeCat](https://us.freecat.cc/register?code=czdF7PXY)                | ¥50  | 500 ГБ | 90               |
-| [Naiyun](https://www.v2ny.me?path=register&code=05XjPGu5)              | ¥98  | 280 ГБ | 140              |
+| Название      | Цена    | Трафик      | Ноды | Ссылка на регистрацию/подписку (клик)                                  | Почему рекомендуем (популярно в 2026) |
+|---------------|---------|-------------|------|------------------------------------------------------------------------|---------------------------------------|
+| 牛逼          | 14 ₽    | 200 ГБ/мес  | 31   | [https://1.jnk.ink/LYet7x](https://1.jnk.ink/LYet7x)                   | Самый дешёвый вход, идеально новичкам |
+| 农夫山泉      | 15 ₽    | 200 ГБ/мес  | 40   | [https://1.jnk.ink/i1fXTMYk](https://1.jnk.ink/i1fXTMYk)               | Баланс нод, высокая стабильность      |
+| 魔戒          | 15 ₽    | 130 ГБ/мес  | 48   | [https://1.jnk.ink/L4q20S](https://1.jnk.ink/L4q20S)                   | Много нод, широкое покрытие           |
+| speedy        | 15 ₽    | 100 ГБ/мес  | 42   | [https://cloud.speedypro.xyz/#/register?code=RTSPWuvE](https://cloud.speedypro.xyz/#/register?code=RTSPWuvE) | Высокая скорость, лучший для старта   |
+| 网际快车      | 16 ₽    | 100 ГБ/мес  | 54   | [https://wjkc66.vip?c=REZUOC](https://wjkc66.vip?c=REZUOC)             | Богатый выбор нод, отличное соотношение цена/качество |
+| 赔钱机场      | 19 ₽    | 1000 ГБ/мес | 37   | [https://www.xn--mes358aby2apfg.site/register?code=OufF6cCL](https://www.xn--mes358aby2apfg.site/register?code=OufF6cCL) | Король трафика, must-have для тяжёлых пользователей |
+| 一分          | 20 ₽    | 1000 ГБ/мес | 30   | [https://xn--4gqx1hgtfdmt.com/#/register?code=Aqr3awfK](https://xn--4gqx1hgtfdmt.com/#/register?code=Aqr3awfK) | Огромный трафик, выгодно на долгий срок |
+| 飞兔          | 30 ₽    | 100 ГБ/мес  | 80   | [https://www.xn--9kq10e0y7h.site/index.html?register=TtwX5VXt](https://www.xn--9kq10e0y7h.site/index.html?register=TtwX5VXt) | Максимум нод, глобальное покрытие     |
+| 宝贝云        | 55 ₽    | 600 ГБ/мес  | 64   | [https://1.jnk.ink/xxPwfy](https://1.jnk.ink/xxPwfy)                   | Средне-высокий сегмент, стабильность  |
+| 千速猫        | 68 ₽    | 512 ГБ/мес  | 46   | [https://tmsreta.top/#/register?code=mmgD0jY7](https://tmsreta.top/#/register?code=mmgD0jY7) | Приоритет скорости, премиум-линии     |
+| 自由猫        | 50 ₽    | 500 ГБ/мес  | 90   | [https://us.freecat.cc/register?code=czdF7PXY](https://us.freecat.cc/register?code=czdF7PXY) | Очень много нод, отличный анлок       |
 
+![clash-party-101.png](https://mihomoparty.pro/img/clash-party101.png)
 
-* [leeulen60@gmail.com](mailto:leeulen60@gmail.com)
+**Рекомендации по выбору аэропорта в 2026 году**:
+- Ограниченный бюджет или новичок — берите 14–20 ₽ (牛逼, 赔钱机场, 一分) — трафика хватит с запасом.
+- Хотите максимум нод и покрытие по миру — 飞兔 или 自由猫 (80–90+ нод).
+- Много смотрите видео/качаете — 赔钱机场 или 一分 (1000 ГБ — без ограничений).
 
+После регистрации зайдите в личный кабинет, найдите «Clash-подписка» или «Subscription Link», скопируйте полную ссылку (обычно .yaml или URL-подписки).
 
-- [Бесплатный обмен узлами Sing-box, длительное обновление](https://sing-box.info/ru/docs/%D0%A3%D1%87%D0%B5%D0%B1%D0%BD%D0%BE%D0%B5-%D0%BF%D0%BE%D1%81%D0%BE%D0%B1%D0%B8%D0%B5-%D0%BF%D0%BE-%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8E/%D0%91%D0%B5%D1%81%D0%BF%D0%BB%D0%B0%D1%82%D0%BD%D1%8B%D0%B9-%D1%83%D0%B7%D0%B5%D0%BB-Sing-Box-%D0%B4%D0%BE%D0%BB%D0%B3%D0%BE%D1%81%D1%80%D0%BE%D1%87%D0%BD%D1%8B%D0%B5-%D0%BE%D0%B1%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F/)
+### Шаг 3: Импорт подписки в Clash Party и подключение в один клик
 
-- [Метод использования Sing-box для Android](https://sing-box.info/ru/docs/%D0%A3%D1%87%D0%B5%D0%B1%D0%BD%D0%BE%D0%B5-%D0%BF%D0%BE%D1%81%D0%BE%D0%B1%D0%B8%D0%B5-%D0%BF%D0%BE-%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8E/%D0%98%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D1%83%D0%B9%D1%82%D0%B5-Android-%D0%BA%D0%BB%D0%B8%D0%B5%D0%BD%D1%82-Sing-Box-Nekobox/)
+1. Запустите Clash Party, перейдите в левое меню «Подписки» или «Configs».  
+   ![clash-party002.png](https://mihomoparty.pro/img/clash-party002.png)
 
-- [Метод использования Sing-box для Windows - gui.for.singbox](https://sing-box.info/ru/docs/%D0%A3%D1%87%D0%B5%D0%B1%D0%BD%D0%BE%D0%B5-%D0%BF%D0%BE%D1%81%D0%BE%D0%B1%D0%B8%D0%B5-%D0%BF%D0%BE-%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8E/%D0%A0%D1%83%D0%BA%D0%BE%D0%B2%D0%BE%D0%B4%D1%81%D1%82%D0%B2%D0%BE-%D0%BF%D0%BE-%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8E-GUI.for.SingBox/)
+3. Нажмите «Импорт подписки» или «New Subscription».  
+   ![clash-party003.png](https://mihomoparty.pro/img/clash-party003.png)
 
-- [Метод использования Sing-box для Windows - nekoray](https://sing-box.info/ru/docs/%D0%A3%D1%87%D0%B5%D0%B1%D0%BD%D0%BE%D0%B5-%D0%BF%D0%BE%D1%81%D0%BE%D0%B1%D0%B8%D0%B5-%D0%BF%D0%BE-%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8E/%D0%9A%D0%B0%D0%BA-%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D1%8C-Sing-Box-%D0%B2-%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D0%B8-%D0%B4%D0%BB%D1%8F-Windows--n/)
+5. Вставьте ссылку подписки от аэропорта и нажмите Подтвердить / Обновить.  
+   ![clash-party004.png](https://mihomoparty.pro/img/clash-party004.png)
 
-- [Метод использования Sing-box на компьютере Apple](https://sing-box.info/ru/docs/%D0%A3%D1%87%D0%B5%D0%B1%D0%BD%D0%BE%D0%B5-%D0%BF%D0%BE%D1%81%D0%BE%D0%B1%D0%B8%D0%B5-%D0%BF%D0%BE-%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8E/%D0%BA%D0%B0%D0%BA-%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D1%8C-Sing-Box-VT-%D0%BD%D0%B0-iPhone/)
+7. Подождите автоматической загрузки списка нод (несколько секунд — десятки секунд).  
+   ![clash-party005.png](https://mihomoparty.pro/img/clash-party005.png)
 
+9. Перейдите в раздел «Прокси» или «Proxies», выберите группу нод (например «Автовыбор», «Гонконг», «Япония», «США» и т.д.).  
+   ![clash-party006.png](https://mihomoparty.pro/img/clash-party006.png)
 
+11. Вверху включите «Системный прокси» или «TUN-режим» (рекомендуем TUN — полный глобальный прокси без плагинов в браузере).  
+    ![clash-party007.png](https://mihomoparty.pro/img/clash-party007.png)
 
+12. В правом нижнем углу появится индикатор успешного подключения, пинг нод отображается в реальном времени.  
+    ![clash-party008.png](https://mihomoparty.pro/img/clash-party008.png)
 
+Тест: откройте браузер и зайдите на google.com, youtube.com или chat.openai.com. Если страницы загружаются нормально — прокси работает!
 
+**Полезные советы для лучшего опыта**:
+- Тестирование нод — нажмите кнопку проверки задержки, выберите самые быстрые автоматически.
+- Режимы прокси: Правил (умная маршрутизация, рекомендуется); Глобальный (всё через прокси); Прямой (без прокси).
+- Для Android — ту же ссылку подписки импортируйте в Clash Meta for Android — синхронизация телефона и ПК.
+- Регулярно обновляйте подписку — настройте автообновление, чтобы ноды не устаревали.
 
-
-
-
-
-
-
+Clash Party + эти выгодные аэропорты — самая популярная связка для прокси в 2026 году. За 15–70 рублей в месяц вы получаете десятки-сотни качественных нод, огромный трафик, молниеносную скорость и стабильность без обрывов. Студент, офисный работник, фрилансер или геймер — все смогут свободно пользоваться глобальным интернетом. Выберите аэропорт, зарегистрируйтесь прямо сейчас, скачайте Clash Party и начните своё путешествие в свободный интернет! Прокси начинается с Clash Party — наслаждайтесь безграничной сетью!
